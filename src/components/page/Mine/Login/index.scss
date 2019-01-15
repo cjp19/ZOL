@@ -1,0 +1,38 @@
+.app-login-box{
+    form{
+        .username,.password,.phone,.code{
+            width:100%;
+            padding:.2rem .3rem;
+            border:0;
+            font:.36rem/.6rem "";
+            border-bottom:1px solid #d3d3d3;
+        }
+        .username,.phone{
+            border-top:1px solid #d3d3d3;
+        }
+        .login-button{
+            width:90%;
+            height:1rem;
+            font:.36rem/.6rem "";
+            background:#888;
+            color:#fff;
+            text-align:center;
+            border:0;
+            margin-top:.4rem;
+        }
+    }
+}
+
+.app-login-box{
+    .login-content button{
+        width:90%;
+        height:1rem;
+        font:.36rem/.6rem "";
+        background:#fff;
+        color:#f22e00;
+        text-align:center;
+        border:1px solid #f22e00;
+        margin-top:.4rem;
+    }
+}
+

@@ -1,0 +1,45 @@
+
+.type-box{
+    .type-head{
+        height:.86rem;
+    }
+    .main{
+        display:flex;
+        .aside{
+            width:1.68rem;
+            
+            ul{
+                li{
+                    width:1.68rem;
+                    height:.96rem;
+                    
+                    border-bottom:.01rem solid #e0e0e0;
+                    
+                    font-size:.26rem;
+                    line-height: .96rem;
+                    
+                    a{
+                        display:block;
+                        width:100%;
+                        background:#f9f9f9;
+                        border-right:.01rem solid #e0e0e0;
+                        height:100%;
+                        color:#333;
+                        font-weight: 500;
+                        // &.active{
+                        //     font-weight: 900;
+                        //     background: #fff;
+                        //     border-right: 1px solid #fff;
+                        //     color: #ce1a1b;
+                        // }
+                    }
+                    
+                    
+                    
+                    
+                }
+               
+            }
+        }
+    }
+}                     

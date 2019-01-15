@@ -1,0 +1,55 @@
+.header{
+    height:.8rem;
+    background:#ce1a1b;
+    display: flex;
+    overflow:hidden;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:1000;
+    .header-img1{
+        display:block;
+        width:1.59rem;
+        height:.4rem;
+        margin-top:.3rem;
+    }
+    .top-map{
+        width:.8rem;
+        display:flex;
+        height:.73rem;
+        
+        justify-content: space-between;
+        align-items: center;
+        margin: .07rem .3rem 0 .76rem;
+        span{
+            color:#fff;
+            font-size: .22rem;
+            line-height: .73rem;
+        }
+        img{
+            display:block;
+            width:.2rem;
+            height:.11rem;
+        }
+    }
+    .search{
+        width:3rem;
+        height:.6rem;
+        background:#ff0;
+        margin-top:.14rem;
+        border-radius: .06rem;
+       
+    }
+    .login{
+        width:.5rem;
+        height:.8rem;
+        line-height: .8rem;
+        font-size: .24rem;
+        margin-left: .4rem;
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+}

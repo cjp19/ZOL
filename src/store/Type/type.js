@@ -1,0 +1,4 @@
+const GET_TYPE_CONTENT = 'GET_TYPE_CONTENT'
+export {
+    GET_TYPE_CONTENT
+}

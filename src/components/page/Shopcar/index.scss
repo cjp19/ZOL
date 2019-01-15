@@ -1,0 +1,62 @@
+.shopcar{
+    .shopcar-header{
+        height:.9rem;
+        background:#ededed;
+        border-bottom: .02rem solid #dddddd;
+       
+    }
+    .bgbox{
+        height:.2rem;
+        background:#ededed;
+        border-bottom: .02rem solid #dddddd;
+        border-top: .02rem solid #dddddd;
+    }
+    .goods-list{
+        ul {
+            border-top: .14rem solid #cbcbcb;
+            border-bottom: .14rem solid #cbcbcb;
+          li {
+            display: flex;
+            height: 2.27rem;
+            padding: 0 0.26rem;
+            align-items: center;
+            .img {
+              width: 0.7rem;
+              height: 1.4rem;
+              margin: 0.4rem 0.8rem;
+              border-radius: 0.1rem;
+              overflow: hidden;
+              background:#ff0;
+            //   img {
+            //     display: block;
+            //     width: 0.7rem;
+            //     height: 1.4rem;
+            //   }
+            }
+            .intro {
+              text-align: left;
+              font-size: 0.26rem;
+              h3 {
+                height: 0.42rem;
+                line-height: 0.42rem;
+              }
+              p {
+                line-height: 0.42rem;
+                height: 0.42rm;
+                color: #7f7f7f;
+              }
+              p {
+                font-weight: 900;
+                .s1 {
+                  font-size: 0.24rem;
+                  line-height: 0.42rem;
+                  height: 0.42rm;
+                  color: #d44d44;
+                }
+                
+              }
+            }
+          }
+        }
+    }
+}

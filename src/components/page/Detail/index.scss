@@ -1,0 +1,97 @@
+.detail-box{
+    .detail-header{
+        height:.9rem;
+        background:#ececec;
+        border-bottom: .02rem solid #e4e4e4;
+        display:flex;
+        font-size:.4rem;
+        line-height: .9rem;
+        a{
+            display:block;
+            width:1rem;
+            height:100%;
+        }
+        span{
+            width:2rem;
+            height:100%;
+
+        }
+    }
+    .banner{
+        height:7.5rem;
+        background:#ff0;
+        img{
+            display:block;
+            height:100%;
+            width:100%;
+        }
+    }
+    .goodsInfo{
+        overflow:hidden;
+        text-align: left;
+        padding:0.24rem .2rem;
+        border-bottom: .02rem solid #ededed;
+        h3{
+            font-size:.26rem;
+            line-height: .44rem;
+           
+            color:#333;
+            font-weight: 900;
+        }
+        p{
+            font-size: .28rem;
+            line-height: .5rem;
+            color:#ababab;
+        }
+        .price{
+            font-size: .3rem;
+            line-height: .66rem; 
+            color:#f33;
+        }
+        .others{
+            display: flex;
+            color:#ababab;
+            font-size: .24rem;
+            line-height: .4rem; 
+            justify-content: space-between;
+        }
+    }
+    .detail-footer{
+        height:.98rem;
+        background: #f8f8f8;
+        position: fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        z-index: 1000;
+        color:#666;
+        border-top: .02rem solid #ededed;
+        font-size: .3rem;
+        line-height: .98rem;
+       display: flex;
+        .footer1{
+            width:2.08rem;
+            text-align: center;
+            
+            border-right: .02rem solid #ededed;
+        }
+        .footer2{
+            width:1.42rem;
+            text-align: center;
+
+        }
+        .footer3{
+            width:2.1rem;
+            background:#f60;
+            color:#fff;
+            text-align: center;
+        }
+        .footer4{
+            width:1.88rem;
+            color:#fff;            
+            background:#f22d00;
+            text-align: center;
+
+        }
+    }
+}
