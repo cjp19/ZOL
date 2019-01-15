@@ -29,6 +29,7 @@ class DetailBox extends Component{
               Toast.info('加入成功')
           })
     }
+    
     renderItem(){
         let {data} = this.props
         console.log('详情',data)
